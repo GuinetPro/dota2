@@ -1,0 +1,10 @@
+<div class="row">
+
+    <div class="col-md-2" ng-repeat="heroe in heroes">
+          <a ng-href="#{{heroe.name | normalize }}">
+            <heroe-image></heroe-image>
+          </a>
+         <heroe-name></heroe-name>
+    </div><!-- /.col-lg-4 -->
+
+</div>

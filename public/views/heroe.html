@@ -1,0 +1,46 @@
+<!-- pokemon -->
+<div ng-if="!heroe">
+  <div class="page-header">
+    <h1>Error</h1>
+  </div>
+  <div class="alert alert-danger">
+    <p>Heroe not found</p>
+  </div>
+</div>
+<div ng-if="heroe">
+  <div class="page-header">
+    <heroe-name></heroe-name>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <heroe-image></heroe-image>
+       <p>{{heroe.description}}</p>
+    </div>
+    <!-- Tabs -->
+    <div class="col-md-6" ng-controller="TabsController">
+      <ul class="nav nav-tabs nav-justified">
+        <li ng-class="{ active:isActive(1) }"><a ng-click="selectTab(1)">VISTA GENERAL</a></li>
+        <li ng-class="{ active:isActive(2) }"><a ng-click="selectTab(2)">HABILIDADES</a></li>
+        <li ng-class="{ active:isActive(3) }"><a ng-click="selectTab(3)">ESTADÍSTICAS</a></li>
+      </ul>
+      <div class="tab-content">
+        <!-- VISTA GENERAL -->
+        <div ng-show="isActive(1)">
+          <heroe-data></heroe-data>
+        </div>
+        <!-- HABILIDADES -->
+        <div ng-show="isActive(2)">
+          <heroe-ability></heroe-ability>
+        </div>
+        <!-- ESTADÍSTICAS -->
+        <div ng-show="isActive(3)">
+          <heroe-statistics></heroe-statistics>
+        </div>
+      </div>
+    </div>
+    <!-- /tabs -->
+  </div>
+  <!-- builds -->
+
+  <!-- /builds -->
+</div>

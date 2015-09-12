@@ -1,0 +1,237 @@
+[
+    {
+        "id": "1",
+        "name": "Anti-Mage",
+        "description": "es un rápido combate cuerpo a cuerpo de la agilidad Lleve con un énfasis en la desactivación y matar a los enemigos de alto maná. Tiene notablemente alta agilidad y bajo tiempo de ataque base, dándole gran daño y la escala con sus ataques básicos. Su habilidad firma es Mana rotura, un modificador de ataque pasivo que lo una gran amenaza para los héroes-mana dependen hace, principalmente Inteligencia basados ​​ruedas. Además de la concesión de un daño sustancial de la prima en cada ataque, sus quemadura de maná conjuntos enemigos hasta ser devastada por su capacidad máxima, Mana Void. Blink es una habilidad muy versátil que permite Anti-Mago teletransportarse instantáneamente las distancias cortas, lo que permite a escapar , persecución, e incluso granja con facilidad. Combinado con su gran base de la velocidad de movimiento, esto hace de Anti-Mage un héroe de gran movilidad en todos los puntos en el juego. Spell Shield aumenta en gran medida de las Anti-Mage resistencia a la magia, lo que le permite sostener más daño de ruedas enemigas. Por último, Mana Void remata objetivos después de su maná se ha quemado, infligiendo graves daños tanto al objetivo y los enemigos cercanos al objetivo. El daño Mana Void puede potencialmente hacer frente escalas extremadamente bien en el final del juego, como Mana Pools enemigos sólo se hacen más grandes con el tiempo. Sus ataques básicos naturalmente rápidos combinados con sus poderosas habilidades le hacen extremadamente peligroso en el final del juego, lo que le permite devastar enemigos con facilidad si se le permite a la granja como equipaje duro.",
+        "Movement Speed": "315",
+        "Turn Rate": "0.5",
+        "Sight Range": "1800/800",
+        "attack_range": "Melee",
+        "Missile Speed": "Instant",
+        "Attack Duration": "0.3+0.6",
+        "Base Attack Time": "1.45",
+        "Collision Size": "24",
+        "role": [
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "image": [
+            "antimage_full.png",
+            "antimage_lg.png",
+            "antimage_sb.png",
+            "antimage_vert.jpg"
+        ],
+        "abilities": [
+            {
+                "name": "Mana Break",
+                "image": "antimage_mana_break_hp1.png",
+                "description": "Quema de maná de un oponente en cada ataque. Mana rotura ocupa el 60% del maná quemado como daño al objetivo.",
+                "ability": "Pasiva",
+                "affects": "Enemigos",
+                "damage": "Psiquico"
+            },
+            {
+                "name": "Blink",
+                "image": "antimage_blink_hp1.png",
+                "description": "Teletransportación corta distancia que permite Anti-Mago de moverse dentro y fuera de combate.",
+                "ability": "Pasiva",
+                "affects": "Auto",
+                "damage": ""
+            },
+            {
+                "name": "Spell Shield",
+                "image": "antimage_spell_shield_hp1.png",
+                "description": "Aumenta la resistencia de las Anti-Mage de daño mágico.",
+                "ability": "Pasiva",
+                "affects": "Auto",
+                "damage": ""
+            },
+            {
+                "name": "Mana Void",
+                "image": "antimage_mana_void_hp1.png",
+                "description": "Por cada punto de maná falta por la unidad de destino, daño se hace a la misma y los enemigos cercanos. El objetivo principal es sorprendido por un corto período.",
+                "ability": "Pasiva",
+                "affects": "Unidad Enemiga",
+                "damage": "Magico"
+            }
+        ],
+        "builds": []
+    },
+    {
+        "id": "2",
+        "name": "Bloodseeker",
+        "description": "es un rápido combate cuerpo a cuerpo de la agilidad Lleve con un énfasis en la desactivación y matar a los enemigos de alto maná. Tiene notablemente alta agilidad y bajo tiempo de ataque base, dándole gran daño y la escala con sus ataques básicos. Su habilidad firma es Mana rotura, un modificador de ataque pasivo que lo una gran amenaza para los héroes-mana dependen hace, principalmente Inteligencia basados ​​ruedas. Además de la concesión de un daño sustancial de la prima en cada ataque, sus quemadura de maná conjuntos enemigos hasta ser devastada por su capacidad máxima, Mana Void. Blink es una habilidad muy versátil que permite Anti-Mago teletransportarse instantáneamente las distancias cortas, lo que permite a escapar , persecución, e incluso granja con facilidad. Combinado con su gran base de la velocidad de movimiento, esto hace de Anti-Mage un héroe de gran movilidad en todos los puntos en el juego. Spell Shield aumenta en gran medida de las Anti-Mage resistencia a la magia, lo que le permite sostener más daño de ruedas enemigas. Por último, Mana Void remata objetivos después de su maná se ha quemado, infligiendo graves daños tanto al objetivo y los enemigos cercanos al objetivo. El daño Mana Void puede potencialmente hacer frente escalas extremadamente bien en el final del juego, como Mana Pools enemigos sólo se hacen más grandes con el tiempo. Sus ataques básicos naturalmente rápidos combinados con sus poderosas habilidades le hacen extremadamente peligroso en el final del juego, lo que le permite devastar enemigos con facilidad si se le permite a la granja como equipaje duro.",
+        "Movement Speed": "290",
+        "Turn Rate": "0.5",
+        "Sight Range": "1800/800",
+        "attack_range": "Melee",
+        "Missile Speed": "Instant",
+        "Attack Duration": "0.43+0.74",
+        "Base Attack Time": "1.7",
+        "Collision Size": "24",
+        "role": ["Carry", "Disabler","Jungler","Nuker","Initiator" ],
+        "image": [
+            "bloodseeker_full.png",
+            "bloodseeker_lg.png",
+            "bloodseeker_sb.png",
+            "bloodseeker_vert.jpg"
+        ],
+        "abilities": [
+            {
+                "name": "Bloodrage",
+                "image": "bloodseeker_bloodrage_hp1.png",
+                "description": "Conduce una unidad en una rabia sanguinaria durante el cual una unidad trata, y toma, el aumento de los daños. Héroes afectados por Bloodrage serán sanados para el 25% de la salud máxima de cualquier unidad que matan. Héroes afectados por Bloodrage cuando matado sanará 25% de su salud máxima a su asesino.",
+                "ability": "Alcanze a Unidad",
+                "affects": "Unidad",
+                "damage": ""
+            },
+            {
+                "name": "Blood Rite",
+                "image": "bloodseeker_blood_bath_hp1.png",
+                "description": "Bloodseeker bautiza un área en la sangre sagrada. Después de 3 segundos el ritual termina, provocando a los enemigos capturados en la zona para tomar el daño y ser silenciado.",
+                "ability": "Alcanze de aera",
+                "affects": "Enemigos",
+                "damage": "Pure"
+            },
+            {
+                "name": "Thirst",
+                "image": "bloodseeker_thirst_hp1.png",
+                "description": "Permite Bloodseeker sentir héroes enemigos cuya salud está por debajo de un determinado porcentaje dondequiera que se encuentren, dándole Visión Verdadera en esa unidad, el aumento de la velocidad de movimiento y daño aumentado. Los bonos se apilan por héroe.",
+                "ability": "Pasiva",
+                "affects": "Asi mismo",
+                "damage": ""
+            },
+            {
+                "name": "Rupture",
+                "image": "bloodseeker_rupture_hp1.png",
+                "description": "Causas de la piel de una unidad enemiga se rompa. Si la unidad se mueve, se necesita un porcentaje de la distancia recorrida como daño. El daño se hace a través hechizo inmunidad.",
+                "ability": "Unidad Enemiga",
+                "affects": "Enemigos",
+                "damage": "Pure"
+            }
+        ],
+        "builds": []
+    },
+    {
+        "id": "3",
+        "name": "Crystal Maiden",
+        "description": "es una distancia de inteligencia héroe utilizado como un disco de apoyo y neutralizador. Ella es quizás mejor conocido por su poderosa mundial maná aura regeneración. Esta aura permite aliados dependientes de maná para sobresalir durante la primera mitad del juego y la fase de encarrilamiento, y le permite activar constantemente sus propios hechizos sin tener que preocuparse mucho acerca de los costes de maná. Ella también tiene una alta cantidad de presencia juego temprano con unos pocos puntos en sus Crystal Nova y Frostbite habilidades. Crystal Nova es una poderosa arma nuclear de área de efecto que retarda ambas velocidades de ataque y de movimiento de los enemigos dentro de un área durante varios segundos, mientras que Frostbite encierra un enemigo en un bloque de hielo durante varios segundos, inmovilizándolo y haciendo daño moderado por segundo. La combinación de estas dos habilidades en conjunto, junto con propios hechizos de un socio laning a menudo resulta en la muerte rápida de un héroe enemigo. Aunque su fuerte presencia juego temprano se pierde rápidamente debido a su extrema fragilidad y poca movilidad, ella todavía puede infligir un fuerte cantidad de daño en teamfights más adelante si ella es capaz de canalizar su mortal último, Campo de congelación. Su Arcano Aura, fuerte incapacitante y destreza nuking, la relativa facilidad de uso, y la casi completa falta de dependencia elemento de ella una máquina de colada de apoyo confiable que puede ser útil en cualquier equipo hace, y el aspecto poco común de su último restante increíblemente mortal incluso en muy tarde etapas del juego en una de las mejores de escala hace que apoya en todo el juego. Con la protección de su equipo y la selección de los elementos deseados, puede ser la única ayuda verdadera cualquier equipo necesita.",
+        "Movement Speed": "280",
+        "Turn Rate": "0.5",
+        "Sight Range": "1800/800",
+        "attack_range": "Range",
+        "Missile Speed": "900",
+        "Attack Duration": "0.55+0",
+        "Base Attack Time": "1.7",
+        "Collision Size": "24",
+        "role": [
+            "Support",
+            "Escape",
+            "Nuker",
+            "Disabler",
+            "Jungler"
+        ],
+        "image": [
+            "crystal_maiden_full.png",
+            "crystal_maiden__lg.png",
+            "crystal_maiden__sb.png",
+            "crystal_maiden__vert.jpg"
+        ],
+        "abilities": [
+            {
+                "name": "Crystal Nova",
+                "image": "crystal_maiden_crystal_nova_hp1.png",
+                "description": "Una explosión de heladas dañinas disminuye el movimiento enemigo y tasa de ataque en el área de orientación.",
+                "ability": "Pasiva",
+                "affects": "Enemigos",
+                "damage": "Psiquico"
+            },
+            {
+                "name": "Frostbite",
+                "image": "crystal_maiden_frostbite_hp1.png",
+                "description": "Encierra una unidad enemiga en el hielo, la prohibición de movimiento y ataque, mientras que se ocupan 50 de daño cada medio segundo. Dura 10 segundos en pelos de punta de nivel 6 o inferior.",
+                "ability": "Alcanze Unidad",
+                "affects": "Enemigos",
+                "damage": "Magico"
+            },
+            {
+                "name": "Arcane Aura",
+                "image": "crystal_maiden_brilliance_aura_hp1.png",
+                "description": "Da la regeneración de maná adicional a todas las unidades amigas en el mapa. Este bono se duplicó en Crystal Maiden.",
+                "ability": "Aura",
+                "affects": "Aliados",
+                "damage": ""
+            },
+            {
+                "name": "Freezing Field",
+                "image": "crystal_maiden_freezing_field_hp1.png",
+                "description": "Alrededores Crystal Maiden con explosiones heladas aleatorias que los enemigos lentos y hacen daño masivo. Dura 10 segundos.",
+                "ability": "No hay alcanze",
+                "affects": "Enemigos",
+                "damage": "Magico"
+            }
+        ],
+        "builds": []
+    },
+    {
+        "id": "4",
+        "name": "Lina",
+        "description": "el asesino es un variado Inteligencia héroe, adepto a la destrucción de los héroes enemigos de forma rápida mediante la entrega de explosiones masivas de daño mágico, haciendo de ella una de las más eficaces al grupo de ataque en el juego. Ella posee inmensas capacidades perjudiciales durante todo el juego, pero es muy frágil. Dos de sus hechizos de fuego son su principal fuente de daño, Dragón esclavo envía una ola de fuego para quemar los enemigos en su camino mientras matriz huelga Luz aturde con un pilar concentrada de la llama solar. Cada uno de sus hechizos se ocupa grandes daños desde el principio y tiene un bajo tiempo de reutilización. Su Fiery Soul refuerza su ataque y velocidad de movimiento cada vez que lanza un hechizo, lo que le da a su daño de escala para el juego después. Laguna Cuchilla, su última, es su as en la manga. Lina dispara un enorme rayo en un solo objetivo, infligiendo daño colosal. Daños de Laguna Blade es sorprendente a principios-mediados de juego, y finales de juego sigue siendo suficiente para destruir los héroes enemigos frágiles. Dragón Esclavo, Array huelga Luz, y la Laguna de la lámina son bombas nucleares de fuego increíbles que se pueden incinerar a su objetivo al instante, y Fiery Soul permite a ella hacer la transición a un atacante físico fuerte y rápido. Aunque su poder se cae de su apogeo a finales del juego, mana-impulso y artículos daño mayor se pueden comprar para mantenerse arriba.",
+        "Movement Speed": "295",
+        "Turn Rate": "0.5",
+        "Sight Range": "1800/800",
+        "attack_range": "Range",
+        "Missile Speed": "1000",
+        "Attack Duration": "0.75+0.78",
+        "Base Attack Time": "1.7",
+        "Collision Size": "24",
+        "role": [
+            "Support",
+            "Carry",
+            "Disabled",
+            "Nuker"
+        ],
+        "image": [
+            "lina_full.png",
+            "lina_lg.png",
+            "lina_sb.png",
+            "lina_vert.jpg"
+        ],
+        "abilities": [
+            {
+                "name": "Dragon Slave",
+                "image": "lina_dragon_slave_hp1.png",
+                "description": "Canales Lina aliento de un dragón, el envío de una ola de fuego que quema a todos los enemigos en su camino.",
+                "ability": "Alcanze de Punto-Alcanze de Unidad",
+                "affects": "Enemigos",
+                "damage": "Magico"
+            },
+            {
+                "name": "Light Strike Array",
+                "image": "lina_light_strike_array_hp1.png",
+                "description": "Invoca una columna de llamas que daña y aturde a los enemigos.",
+                "ability": "Alcanze de Area",
+                "affects": "Enemigos",
+                "damage": "Magico"
+            },
+            {
+                "name": "Fiery Soul",
+                "image": "lina_fiery_soul_hp1.png",
+                "description": "movimiento cada vez Lina lanza un hechizo. Se acumula consigo mismo.",
+                "ability": "Pasiva",
+                "affects": "Asimismo",
+                "damage": ""
+            },
+            {
+                "name": "Laguna Blade",
+                "image": "lina_laguna_blade_hp1.png",
+                "description": "Dispara un rayo en una sola unidad enemiga, infligiendo daño masivo.",
+                "ability": "Alcanze Unidad",
+                "affects": "Enemigos",
+                "damage": "Magico-Pure"
+            }
+        ],
+        "builds": []
+    }
+]

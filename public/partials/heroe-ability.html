@@ -1,0 +1,22 @@
+<ul class="list-group">
+
+  <li class="list-group-item" ng-repeat="ability in heroe.abilities">
+
+    <div class="media">
+          <span class="media-left media-top" >
+            <img class="pull-left" ng-src="{{ability.image | imageheroe:'abilities'}}">
+          </span>
+          <div class="media-body">
+            <h4 class="media-heading">{{ability.name}}</h4>
+            <p>{{ability.description}}</p>
+
+          </div>
+        </div>
+    </div>
+
+
+  </li>
+
+</ul>
+
+

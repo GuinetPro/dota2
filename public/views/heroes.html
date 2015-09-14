@@ -1,4 +1,31 @@
 <div class="row">
+  <div class="col-md-4">
+
+    <div class="form-group">
+        <span>Filtrar por Rol </span>
+        <select class="form-control"  ng-model="rol" ng-change="filterHeroes()" ng-options="rol as rol for rol in roles"><option value=""></option></select>
+    </div>
+
+
+  </div>
+  <div class="col-md-4">
+
+      <div class="form-group">
+        <span>Filtrar por Rango de Ataque </span>
+        <select class="form-control"  ng-model="rango" ng-change="filterRange()" ng-options="rol as rol for rol in range"><option value=""></option></select>
+      </div>
+
+  </div>
+  <div class="col-md-4">
+
+  </div>
+</div>
+
+<div class="row">
+
+    <div class="col-12">
+
+    </div>
 
     <div class="col-md-2" ng-repeat="heroe in heroes">
           <a ng-href="#{{heroe.name | normalize }}">

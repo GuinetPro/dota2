@@ -1,10 +1,59 @@
 app.controller('HeroesController',function($scope,HeroeFactory){
 
     $scope.heroes = [];
+    $scope.roles  = [];
+    $scope.range  = [];
 
     HeroeFactory.all().then(function (data) {
         $scope.heroes = data;
     });
+
+    HeroeFactory.getRol().then(function (data) {
+        $scope.roles  = data;
+
+    });
+
+    HeroeFactory.getRange().then(function (data) {
+        $scope.range  = data;
+
+    });
+
+
+    $scope.filterRange = function(){
+
+       if( $scope.rango ===  null ){
+
+          HeroeFactory.all().then(function (data) {
+              $scope.heroes = data;
+          });
+
+       }else{
+
+          HeroeFactory.filterByRange($scope.rango ) .then(function (data) {
+              $scope.heroes = data;
+
+          });
+       }
+
+    }
+
+    $scope.filterHeroes = function(){
+
+       if( $scope.rol ===  null ){
+
+          HeroeFactory.all().then(function (data) {
+              $scope.heroes = data;
+          });
+
+       }else{
+
+          HeroeFactory.filterByRole($scope.rol ) .then(function (data) {
+              $scope.heroes = data;
+
+          });
+       }
+
+    }
 
 });
 
